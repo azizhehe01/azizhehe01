@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://media1.tenor.com/m/4K4A7rZaMu0AAAAC/annie-laugh-annie-aot.gif" width="250" />
+</div>
+
 # Halo, gue Aziz! 👋
 
 Backend Developer | Anak Linux | AI Enthusiast 🚀
