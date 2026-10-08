@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hey, I'm Aziz 👋
 
-<!--
-**azizhehe01/azizhehe01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend Developer | Linux Enthusiast | AI Explorer
 
-Here are some ideas to get you started:
+I'm a developer passionate about building
+backend systems, exploring Linux, and
+integrating AI into real-world applications.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Tech Stack
+- Backend: PHP, Laravel, Java, Node.js
+- Database: MariaDB, PostgreSQL, SQLite
+- DevOps: Docker, Linux, Git
+- AI: LLMs, MCP, AI Agents
+
+### Currently
+- Working on backend development
+- Exploring AI-powered applications
+- Learning system architecture
+
+### Connect
+GitHub: @azizhehe01
