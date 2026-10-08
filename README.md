@@ -1,9 +1,8 @@
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="350" />
-</div>
-
 # Halo, gue Aziz! 👋
 
+<a href="https://github.com/azizhehe01">
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=30&pause=1000&color=45FF08&vCenter=true&width=500&lines=>_Hello,+I'm+Aziz;>_Backend+Developer;>_Linux+Enthusiast;>_AI+Explorer" alt="Typing SVG" />
+</a>
 
 Gue seorang *developer* yang doyan banget ngoprek *backend*, nyelam di dunia Linux, dan ngeksplor gimana AI bisa diterapin di dunia nyata. Kalau lu suka bahas soal arsitektur sistem atau AI, gas kita ngobrol!
 
