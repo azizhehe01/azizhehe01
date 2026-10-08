@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media1.tenor.com/m/4K4A7rZaMu0AAAAC/annie-laugh-annie-aot.gif" width="250" />
+  <img src="https://media.tenor.com/4K4A7rZaMu0AAAAC/annie-laugh-annie-aot.gif" width="250" />
 </div>
 
 # Halo, gue Aziz! 👋
