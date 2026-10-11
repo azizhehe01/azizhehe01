@@ -45,5 +45,20 @@ Ada ide project seru atau sekadar mau ngobrol? *Feel free* buat ngabarin gue di:
 [![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/316x7tnnsne7uitxfd7fb4ij44gu?si=b6653e0466d743d8)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:azizhehe01@gmail.com)
 
+### 🎧 Jamming Session: *Quarter Life Crisis*
+> *Lagu-lagu pengiring overthinking, fase 20-an, dan proses pendewasaan.* ☕
+
+<div align="center">
+  <a href="https://open.spotify.com/user/316x7tnnsne7uitxfd7fb4ij44gu?si=b6653e0466d743d8">
+    <img src="assets/music-banner.svg" alt="Quarter Life Crisis Music Banner" width="560" />
+  </a>
+</div>
+
+**Current Rotation:**
+- 🎵 [**Difficult** — Gracie Abrams](https://open.spotify.com/track/4jV1N0mR0o1Yq2M1L6uGk5)
+- 🎵 [**20s** — Bow Anderson](https://open.spotify.com/track/4ZwB14yES6W9CvmnCtV437)
+
+*(Bakal terus gua update kalau nemu lagu yang pas sama mood-nya)* ✨
+
 ---
 *"Code works, but making it clean and scalable is an art."* ✨
