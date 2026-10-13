@@ -50,13 +50,25 @@ Ada ide project seru atau sekadar mau ngobrol? *Feel free* buat ngabarin gue di:
 
 <div align="center">
   <a href="https://open.spotify.com/track/62Vz24WH66GYadBPFJKwT7?si=4c31d7caf02845ca" target="_blank">
-    <img src="assets/banner-20s.png" alt="20s - Bow Anderson" height="85" />
+    <img src="assets/banner-20s.png" alt="20s - Bow Anderson" height="80" />
   </a>
   &nbsp;
   <a href="https://open.spotify.com/track/7llBR7Fy7Fw9zgEQuZp6K7?si=5c5926106cbe4cee" target="_blank">
-    <img src="assets/banner-difficult.png" alt="difficult - Gracie Abrams" height="85" />
+    <img src="assets/banner-difficult.png" alt="difficult - Gracie Abrams" height="80" />
   </a>
-  <br/>
+  &nbsp;
+  <a href="https://open.spotify.com/track/2XoRnEuxmv6EMApi6fagyE?si=7f098c3177be4a3c" target="_blank">
+    <img src="assets/banner-midnight.png" alt="midnight - Bow Anderson" height="80" />
+  </a>
+  <br/><br/>
+  <a href="https://open.spotify.com/track/37sIqxJL31pozJvE7FJ0wr?si=cb7d7e68e47d4fc2" target="_blank">
+    <img src="assets/banner-cest-la-vie.png" alt="c'est la vie - Isabel Dumaa" height="80" />
+  </a>
+  &nbsp;
+  <a href="https://open.spotify.com/track/4IqyeTDoDrrRm5IcNOTy0u?si=f4d42df3d5744738" target="_blank">
+    <img src="assets/banner-quarter-life-crisis.png" alt="quarter life crisis - Isabel Dumaa" height="80" />
+  </a>
+  <br/><br/>
   <sub><i>(Klik banner buat langsung play lagunya di Spotify)</i> 🎵</sub>
 </div>
 
