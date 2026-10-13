@@ -46,17 +46,19 @@ Ada ide project seru atau sekadar mau ngobrol? *Feel free* buat ngabarin gue di:
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:azizhehe01@gmail.com)
 
 ### 🎧 Jamming Session: *Quarter Life Crisis*
-> *Lagu-lagu pengiring overthinking, fase 20-an, dan proses pendewasaan.* ☕
+> *ini rekomen lagu buat lo yang lagi di fase 20an buat nememin kegokilan hidup lo* ☕
 
 <div align="center">
-  <a href="https://open.spotify.com/user/316x7tnnsne7uitxfd7fb4ij44gu?si=b6653e0466d743d8">
-    <img src="assets/music-banner.svg" alt="Quarter Life Crisis Music Banner" width="560" />
+  <a href="https://open.spotify.com/track/62Vz24WH66GYadBPFJKwT7?si=4c31d7caf02845ca" target="_blank">
+    <img src="assets/banner-20s.png" alt="20s - Bow Anderson" height="85" />
   </a>
+  &nbsp;
+  <a href="https://open.spotify.com/track/7llBR7Fy7Fw9zgEQuZp6K7?si=5c5926106cbe4cee" target="_blank">
+    <img src="assets/banner-difficult.png" alt="difficult - Gracie Abrams" height="85" />
+  </a>
+  <br/>
+  <sub><i>(Klik banner buat langsung play lagunya di Spotify)</i> 🎵</sub>
 </div>
-
-**Current Rotation:**
-- 🎵 [**Difficult** — Gracie Abrams](https://open.spotify.com/track/4jV1N0mR0o1Yq2M1L6uGk5)
-- 🎵 [**20s** — Bow Anderson](https://open.spotify.com/track/4ZwB14yES6W9CvmnCtV437)
 
 *(Bakal terus gua update kalau nemu lagu yang pas sama mood-nya)* ✨
 
