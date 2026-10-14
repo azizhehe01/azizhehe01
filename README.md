@@ -60,6 +60,10 @@ Ada ide project seru atau sekadar mau ngobrol? *Feel free* buat ngabarin gue di:
   <a href="https://open.spotify.com/track/2XoRnEuxmv6EMApi6fagyE?si=7f098c3177be4a3c" target="_blank">
     <img src="assets/banner-midnight.png" alt="midnight - Bow Anderson" height="80" />
   </a>
+  &nbsp;
+  <a href="https://open.spotify.com/track/2EPLg9fa4HKsBzuVR5Hwhn?si=1aeb56c855894e02" target="_blank">
+    <img src="assets/banner-girl-on-tv.png" alt="girl on tv - chloe moriondo" height="80" />
+  </a>
   <br/><br/>
   <a href="https://open.spotify.com/track/37sIqxJL31pozJvE7FJ0wr?si=cb7d7e68e47d4fc2" target="_blank">
     <img src="assets/banner-cest-la-vie.png" alt="c'est la vie - Isabel Dumaa" height="80" />
@@ -67,6 +71,10 @@ Ada ide project seru atau sekadar mau ngobrol? *Feel free* buat ngabarin gue di:
   &nbsp;
   <a href="https://open.spotify.com/track/4IqyeTDoDrrRm5IcNOTy0u?si=f4d42df3d5744738" target="_blank">
     <img src="assets/banner-quarter-life-crisis.png" alt="quarter life crisis - Isabel Dumaa" height="80" />
+  </a>
+  &nbsp;
+  <a href="https://open.spotify.com/track/7HxczjrvB2yUI71ae1dghR?si=e272feae43fd42cd" target="_blank">
+    <img src="assets/banner-how-do-you-sleep.png" alt="how do you sleep? - AJA" height="80" />
   </a>
   <br/><br/>
   <sub><i>(Klik banner buat langsung play lagunya di Spotify)</i> 🎵</sub>
