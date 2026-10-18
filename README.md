@@ -1,12 +1,20 @@
-# Halo, gue Aziz! 👋
+# Aziz / azizhehe01
+
+Backend developer yang suka bongkar cara kerja sistem, Linux, dan AI.
 
 <a href="https://github.com/azizhehe01">
   <img src="https://readme-typing-svg.demolab.com?font=VT323&size=30&pause=1000&color=45FF08&vCenter=true&width=500&lines=>_Hello,+I'm+Aziz;>_Backend+Developer;>_Linux+Enthusiast;>_AI+Explorer" alt="Typing SVG" />
 </a>
 
-Gue seorang *developer* yang doyan banget ngoprek *backend*, nyelam di dunia Linux, dan ngeksplor gimana AI bisa diterapin di dunia nyata. Kalau lu suka bahas soal arsitektur sistem atau AI, gas kita ngobrol!
+Sehari-hari gue ngulik backend di Erdigma. Di luar itu, lagi belajar arsitektur sistem dan eksperimen aplikasi berbasis AI. Kalau mau ngobrol soal salah satunya, kontak gue ada di bawah.
 
-### 🛠️ Tech Stack Andalan
+### Aktivitas ngoding
+
+[![GitHub contribution streak Aziz](https://streak-stats.demolab.com?user=azizhehe01&theme=dark&hide_border=true&background=0D1117&ring=45FF08&fire=45FF08&currStreakLabel=45FF08&sideLabels=C9D1D9&dates=8B949E)](https://github.com/azizhehe01?tab=overview)
+
+<sub>Streak = hari kontribusi GitHub berturut-turut, bukan ukuran kualitas kerja. Commit di repo privat hanya ikut terhitung kalau kontribusi privat ditampilkan di profil GitHub. Untuk gambaran progres, lihat juga proyek dan perubahan yang benar-benar dikirim.</sub>
+
+### Yang biasa gue pakai
 
 **Backend:**  
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
@@ -31,13 +39,9 @@ Gue seorang *developer* yang doyan banget ngoprek *backend*, nyelam di dunia Lin
 ![Antigravity](https://img.shields.io/badge/Antigravity-323330?style=for-the-badge)
 ![Hermes](https://img.shields.io/badge/Hermes-F25F22?style=for-the-badge)
 
-### 🚀 Kesibukan Sekarang
-- Sebagai *backend developer* di Erdigma.
-- Asik mainan dan riset soal aplikasi berbasis AI (seru abis!).
-- Terus belajar soal *system architecture* biar *skill* makin tajam.
+### Kontak
 
-### 🤙 Yuk *Connect*!
-Ada ide project seru atau sekadar mau ngobrol? *Feel free* buat ngabarin gue di:
+Mau diskusi backend, Linux, atau AI? Hubungi gue lewat salah satu kanal ini:
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/azizhehe01)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/azizhehe)
@@ -45,7 +49,7 @@ Ada ide project seru atau sekadar mau ngobrol? *Feel free* buat ngabarin gue di:
 [![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/316x7tnnsne7uitxfd7fb4ij44gu?si=b6653e0466d743d8)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:azizhehe01@gmail.com)
 
-### 🎧 Jamming Session: *Quarter Life Crisis*
+### Yang lagi gue putar: *Quarter Life Crisis*
 > *ini rekomen lagu buat lo yang lagi di fase 20an buat nememin kegokilan hidup lo* ☕
 
 <div align="center">
