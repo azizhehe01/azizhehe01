@@ -10,7 +10,7 @@ Sehari-hari gue ngulik backend di Erdigma. Di luar itu, lagi belajar arsitektur 
 
 ### Aktivitas ngoding
 
-[![GitHub contribution streak Aziz](https://streak-stats.demolab.com?user=azizhehe01&theme=dark&hide_border=true&background=0D1117&ring=45FF08&fire=45FF08&currStreakLabel=45FF08&sideLabels=C9D1D9&dates=8B949E)](https://github.com/azizhehe01?tab=overview)
+[![GitHub contribution streak Aziz](https://streak-stats.demolab.com?user=azizhehe01&theme=dark&hide_border=true&background=0D1117&ring=45FF08&fire=45FF08&currStreakLabel=45FF08&sideLabels=C9D1D9&dates=8B949E&timezone=Asia%2FJakarta)](https://github.com/azizhehe01?tab=overview)
 
 <sub>Streak = hari kontribusi GitHub berturut-turut, bukan ukuran kualitas kerja. Commit di repo privat hanya ikut terhitung kalau kontribusi privat ditampilkan di profil GitHub. Untuk gambaran progres, lihat juga proyek dan perubahan yang benar-benar dikirim.</sub>
 
