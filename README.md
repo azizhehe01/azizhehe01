@@ -80,6 +80,10 @@ Mau diskusi backend, Linux, atau AI? Hubungi gue lewat salah satu kanal ini:
   <a href="https://open.spotify.com/track/7HxczjrvB2yUI71ae1dghR?si=e272feae43fd42cd" target="_blank">
     <img src="assets/banner-how-do-you-sleep.png" alt="how do you sleep? - AJA" height="80" />
   </a>
+  &nbsp;
+  <a href="https://open.spotify.com/track/1sSNWjLtY4GwyhqAwAnPD9" target="_blank">
+    <img src="assets/banner-sit-still-look-pretty.png" alt="sit still, look pretty - Daya" height="80" />
+  </a>
   <br/><br/>
   <sub><i>(Klik banner buat langsung play lagunya di Spotify)</i> 🎵</sub>
 </div>
