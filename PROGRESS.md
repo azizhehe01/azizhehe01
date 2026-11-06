@@ -84,16 +84,51 @@ Seluruh komponen widget dan sistem notifikasi disatukan di dalam satu folder/rep
   - **Pupil Hitam**: Bergerak lebih dalam di dalam bagian putih (efek kedalaman 3D).
   - **Alis Galak**: Menurunkan kelopak atas saat kursor berada di bawah layar untuk mempertajam ekspresi galak/fokus.
   - **Animasi Kedip**: Berkedip otomatis tiap 3–6 detik secara acak (termasuk sesekali *double-blink*).
-- **Nothing OS Dot-Matrix Volume OSD (Dynamic Island Morphing)**:
-  - Terintegrasi langsung dengan `Quickshell.Services.Pipewire` (`Pipewire.defaultAudioSink` + `PwObjectTracker`).
-  - Ketika volume dinaikkan/diturunkan (lewat tombol keyboard multimedia `XF86Audio*`, scroll mouse di notch, atau pavucontrol):
+- **Nothing OS Dot-Matrix Volume & Brightness OSD (Dynamic Island Morphing)**:
+  - Terintegrasi langsung dengan `Quickshell.Services.Pipewire` (`Pipewire.defaultAudioSink` + `PwObjectTracker`) untuk audio, dan `brightnessctl` via Quickshell IPC `brightness` + background watcher untuk display backlight.
+  - Ketika volume atau brightness diubah (lewat tombol keyboard laptop `XF86Audio*` / `XF86MonBrightness*`, scroll mouse di notch, atau aplikasi external):
     - Notch otomatis melebar secara mulus (*dynamic island expansion*) dari `168px` ke `248px` (`animatedBodyW`).
-    - Mata berangsur fade-out dan digantikan oleh **Nothing OS Dot-Matrix Volume HUD**:
-      1. Icon speaker dot-matrix putih ([`assets/volume-dot.svg`](file:///home/azhehe/.config/quickshell/DesktopWidgetsApp/assets/volume-dot.svg) / [`assets/volume-mute-dot.svg`](file:///home/azhehe/.config/quickshell/DesktopWidgetsApp/assets/volume-mute-dot.svg)).
-      2. Track volume 16 dot-capsule segmented bar ala glyph Nothing Phone (dot menyala putih cerah sesuai level volume, dot sisa redup transparan).
-      3. Angka persentase dot-matrix resmi Nothing OS (`Ndot57`, misal `65%` atau `MUTED`).
-    - Setelah 1.8 detik hening, notch otomatis mengecil kembali dan sepasang mata galak aktif kembali.
-  - Mendukung interaksi scroll langsung di atas notch untuk menaikkan/menurunkan volume serta klik kanan untuk toggle mute.
+    - Mata berangsur fade-out dan digantikan oleh **Nothing OS Dot-Matrix HUD**:
+      1. Icon speaker dot-matrix putih ([`assets/volume-dot.svg`](file:///home/azhehe/.config/quickshell/DesktopWidgetsApp/assets/volume-dot.svg) / mute) untuk volume, atau **Icon Matahari Dot-Matrix Nothing OS** untuk brightness.
+      2. Track level 16 dot-capsule segmented bar ala glyph Nothing Phone (dot menyala putih cerah sesuai level, dot sisa redup transparan).
+      3. Angka persentase dot-matrix resmi Nothing OS (`Ndot57`, misal `46%`, `65%` atau `MUTED`).
+    - Setelah timeout hening (`volumeTimeoutMs` / `brightnessTimeoutMs`: 1000ms), notch otomatis mengecil kembali dan sepasang mata galak aktif kembali.
+  - Mendukung interaksi scroll langsung di atas notch: scroll biasa = volume, scroll saat brightness OSD aktif = brightness.
+  - Shortcut Fn laptop di [`/home/azhehe/.config/hypr/conf/keybindings/default.lua`](file:///home/azhehe/.config/hypr/conf/keybindings/default.lua):
+    - `XF86MonBrightnessUp` ➔ `qs ipc call brightness up`
+    - `XF86MonBrightnessDown` ➔ `qs ipc call brightness down`
+
+### E. Native Music Sidebar & Playlist Drawer (`sidebar/SidebarWindow.qml`)
+- **Tujuan**: Menggantikan sidebar ML4W (`Ctrl + Super + S`) menjadi komponen native Quickshell berdesain Nothing OS Dot-Matrix + Chameleon Frosted Glass, sehingga dotfiles 100% independen tanpa ketergantungan pada ML4W.
+- **Shortcut & Trigger**:
+  - Keyboard: **`Ctrl + Super + S`** (toggle buka/tutup).
+  - Klik di luar drawer (scrim) atau tombol **`Escape`** langsung menutup drawer.
+  - Quickshell IPC: `qs -p ~/.config/quickshell/DesktopWidgetsApp ipc call sidebar toggle`.
+- **Fitur Utama**:
+  1. **Quick System Sliders**: Slider volume & brightness bergaya Nothing OS dot-matrix yang responsif (bisa digeser/diklik langsung).
+  2. **Multi-Player Switcher Tabs (Spotify vs YouTube / Brave)**:
+     - Mendeteksi seluruh media player aktif (Spotify, Brave, YouTube, Chrome, Firefox, VLC) via MPRIS.
+     - Menyediakan tab pill selector di atas player dengan indikator titik merah menyala `●` saat player sedang aktif memutar lagu/video.
+     - Pengguna bisa beralih player dengan 1 klik untuk pause/play/next video YouTube atau lagu Spotify tanpa perlu pindah window atau workspace.
+  3. **Hero Music & Video Player Card**:
+     - Album art / video thumbnail 82x82 rounded 14px.
+     - Badge sumber player (`SPOTIFY` / `YOUTUBE · BRAVE`).
+     - Judul lagu/video (*NType82*) & Artis/Channel (*LetteraMonoLL*).
+     - **Live Synced Lyrics Snippet**: Baris lirik lagu yang sedang aktif tampil secara live.
+     - Scrubber timeline progress bar interaktif (waktu berjalan & sisa waktu).
+     - Kontrol dot-matrix: Prev, Play/Pause capsule, Next yang langsung mengontrol player yang sedang dipilih.
+  4. **Tombol `+` (Add to My Playlist)**:
+     - Tombol dot-matrix `+` di sebelah kontrol lagu.
+     - Menyimpan lagu ke database playlist lokal ([`sidebar/playlist.json`](file:///home/azhehe/.config/quickshell/DesktopWidgetsApp/sidebar/playlist.json)) via [`sidebar/playlist.py`](file:///home/azhehe/.config/quickshell/DesktopWidgetsApp/sidebar/playlist.py) lengkap dengan auto-detection URL Spotify dan URI D-Bus.
+     - Otomatis berubah menjadi icon checkmark dot-matrix `✓` merah menyala saat lagu sudah tersimpan.
+     - Memunculkan toast notifikasi: `"✓ Added to My Playlist"`.
+  5. **Daftar "My Playlist" (Persistent Saved Songs)**:
+     - Menampilkan daftar lagu favorit yang tersimpan.
+     - Tombol **Play ▶️**: Memanggil Spotify D-Bus `OpenUri` untuk langsung memutar lagu tersebut di Spotify!
+     - Tombol **Hapus ✕**: Sudah diperbaiki dan 100% responsif untuk menghapus lagu dari playlist.
+  6. **Zero Corner Leaks & Hyprland Layer Rule**:
+     - Sudut lancip di pojok kiri atas sudah dibersihkan total (menggunakan rounded gradient `Rectangle` dengan radius 24px murni).
+     - Namespace `quickshell:sidebar` dengan `WlrLayer.Overlay` + GPU Dual-Kawase blur (`blur = true`, `ignore_alpha = 0.1`).
 
 ---
 
