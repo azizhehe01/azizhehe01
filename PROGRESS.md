@@ -51,6 +51,11 @@ Seluruh komponen widget dan sistem notifikasi disatukan di dalam satu folder/rep
   - Menggantikan statusbar bawaan ML4W dengan top notch interaktif di tengah atas layar.
   - Mata putih animasi dengan 2-layer parallax yang melacak kursor secara real-time via daemon IPC Hyprland ([`cursor.py`](file:///home/azhehe/.config/quickshell/DesktopWidgetsApp/notch/cursor.py)) dan kedipan mata otomatis.
   - OSD Volume gaya Nothing OS (icon dot-matrix speaker, 16-dot capsule progress bar, font display `Ndot57`).
+  - **HDMI / Display Projection Manager ala Windows (`Super + P`)**:
+    - Notch bermorfosis menjadi panel proyeksi Nothing OS dot-matrix (`displayBodyW: 460`, `displayNotchH: 84`).
+    - 4 opsi dot-matrix: **PC ONLY**, **DUPLICATE**, **EXTEND**, dan **SECOND**.
+    - Navigasi keyboard: tekan `Super + P` berulang kali untuk cycling opsi (seperti di Windows) atau klik langsung dengan mouse.
+    - Dikelola oleh backend Python daemon [`display.py`](file:///home/azhehe/.config/quickshell/DesktopWidgetsApp/notch/display.py) dan IPC Hyprland `hyprctl keyword monitor ...`.
   - GPU-accelerated rendering (`QtQuick.Shapes`) tanpa jitter Wayland surface resize.
 - **Auto-Hide & Full Window Space**:
   - `reserveSpace: false` (`exclusiveZone: 0`): jendela aplikasi mendapatkan 100% tinggi layar tanpa terpotong 38px.
